@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tribo Kaingang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="../css/styles.css" rel="stylesheet" />
+  <style>
+   
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 70px;
+      background-color: #000149;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    header img {
+      height: 40px;
+      object-fit: contain;
+    }
+
+    
+    main {
+      margin-top: 70px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    
+    .sidebar {
+      flex: 1 1 250px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .sidebar img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    
+    .content {
+      flex: 3 1 600px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .content section {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .links a {
+      background-color: #0e008b;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .links a:hover {
+      background-color: #d3d3d3;
+    }
+
+    
+    @media (max-width: 900px) {
+      main {
+        flex-direction: column;
+      }
+
+      .sidebar, .content {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+
+    <img src="imagem\logo_kaigang.png" alt="Logo Kaingang" />
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <img src="imagem\kaigang.historia.jpg" alt="Imagem Kaingang 1" />
+      <img src="imagem\kaigang2.jpg" alt="Imagem Kaingang 2" />
+      <img src="imagem\No-dia-do-índio-tribo-Kaigang-vai-à-Câmara-e-relatam-o-abandono-vivido-em-Mafra-1.jpg" alt="Imagem Kaingang 3" />
+    </aside>
+
+    <section class="content">
+      <section>
+        <h2>História do Povo Kaingang</h2>
+        <p>
+            O contato dos Kaingang com a sociedade envolvente teve início no final do século XVIII e efetivou-se em meados do século XIX, quando os primeiros chefes políticos tradicionais (Põ’í ou Rekakê) aceitaram aliar-se aos conquistadores brancos (Fóg), transformando-se em capitães. Esses capitães foram fundamentais na pacificação de dezenas de grupos arredios que foram vencidos entre 1840 e 1930. Entre os desdobramentos dessa história, destacam-se o processo de expropriação e acirramento de conflitos, não apenas com os invasores de seus territórios, mas intragrupos kaingang, uma vez que o faccionalismo característico dos grupos jê foi potencializado pelo contato. Os Kaingang vivem em mais de 30 Terras Indígenas que representam uma pequena parcela de seus territórios tradicionais. Por estarem distribuídas em quatro estados, a situação das comunidades apresenta as mais variadas condições. Em todos os casos, contudo, sua estrutura social e princípios cosmológicos continuam vigorando, sempre atualizados pelas diferentes conjunturas pelas quais vêm passando.
+
+ 
+        </p>
+        <p>
+          Ao longo dos séculos, os Kaingang resistiram à colonização e preservaram suas tradições, línguas e modos de vida. Sua organização social é marcada por fortes laços comunitários e respeito pela terra.
+        </p>
+      </section>
+
+      <section>
+        <h2>Como ajudar</h2>
+        <div class="links">
+          <a href="https://vakinha.com.br/kaingang-ajuda" target="_blank" rel="noopener noreferrer">Vakinha Kaingang</a>
+          <a href="https://www.facebook.com/Kaingang" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://www.instagram.com/kaingang" target="_blank" rel="noopener noreferrer">Instagram</a>
+          
+        </div>
+      </section>
+    </section>
+  </main>
+
+</body>
+</html>
